@@ -1,0 +1,139 @@
+name: .NET CI/CD
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'BloodCellDetection/**'
+      - '.github/workflows/dotnet-ci.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'BloodCellDetection/**'
+      - '.github/workflows/dotnet-ci.yml'
+
+env:
+  SOLUTION_PATH: BloodCellDetection/BloodCellDetection.sln
+  PROJECT_PATH: BloodCellDetection/BloodCellDetection.csproj
+  
+jobs:
+  build-and-test:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        lfs: true  # Enable Git LFS for large model files
+
+    - name: Setup .NET Framework
+      uses: microsoft/setup-msbuild@v2
+      
+    - name: Setup NuGet
+      uses: nuget/setup-nuget@v2
+      with:
+        nuget-version: 'latest'
+
+    - name: Restore NuGet packages
+      run: nuget restore ${{ env.SOLUTION_PATH }}
+      
+    - name: Build solution
+      run: msbuild ${{ env.SOLUTION_PATH }} /p:Configuration=Release /p:Platform="Any CPU" /p:OutputPath=bin/Release
+      
+    - name: Check build output
+      run: |
+        if (Test-Path "BloodCellDetection/bin/Release/BloodCellDetection.dll") {
+          Write-Host "✅ Build successful - DLL found"
+        } else {
+          Write-Host "❌ Build failed - DLL not found"
+          exit 1
+        }
+      shell: pwsh
+
+    - name: Run basic validation tests
+      run: |
+        Write-Host "🔍 Running basic validation tests..."
+        
+        # Check if essential files exist
+        $requiredFiles = @(
+          "BloodCellDetection/Login.aspx",
+          "BloodCellDetection/Dashboard.aspx",
+          "BloodCellDetection/Python/Detect.py",
+          "BloodCellDetection/App_Data/Users.xml"
+        )
+        
+        foreach ($file in $requiredFiles) {
+          if (Test-Path $file) {
+            Write-Host "✅ $file exists"
+          } else {
+            Write-Host "❌ $file missing"
+            exit 1
+          }
+        }
+        
+        # Check Python scripts syntax
+        Write-Host "🐍 Checking Python script syntax..."
+        if (Get-Command python -ErrorAction SilentlyContinue) {
+          python -m py_compile BloodCellDetection/Python/Cell.py
+          python -m py_compile BloodCellDetection/Python/Cell2.py
+          python -m py_compile BloodCellDetection/Python/Detect.py
+          Write-Host "✅ Python scripts syntax valid"
+        } else {
+          Write-Host "⚠️ Python not available for syntax check"
+        }
+        
+        Write-Host "🎉 All validation tests passed!"
+      shell: pwsh
+
+    - name: Archive build artifacts
+      uses: actions/upload-artifact@v4
+      if: success()
+      with:
+        name: aspnet-build-artifacts
+        path: |
+          BloodCellDetection/bin/Release/
+          BloodCellDetection/*.aspx
+          BloodCellDetection/*.html
+          BloodCellDetection/*.css
+          BloodCellDetection/*.js
+        retention-days: 30
+
+  security-scan:
+    runs-on: windows-latest
+    needs: build-and-test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Run security analysis
+      run: |
+        Write-Host "🔒 Running security analysis..."
+        
+        # Check for common security issues in ASP.NET files
+        $securityIssues = @()
+        
+        # Check for hardcoded credentials
+        $files = Get-ChildItem -Path "BloodCellDetection" -Recurse -Include "*.aspx", "*.cs", "*.config"
+        foreach ($file in $files) {
+          $content = Get-Content $file.FullName -Raw -ErrorAction SilentlyContinue
+          if ($content) {
+            if ($content -match "password\s*=\s*[\"'][^\"']+[\"']" -and $content -notmatch "password\s*=\s*[\"']\s*[\"']") {
+              $securityIssues += "Potential hardcoded password in $($file.Name)"
+            }
+            if ($content -match "ConnectionString.*Password=[^;]+") {
+              $securityIssues += "Potential hardcoded database password in $($file.Name)"
+            }
+          }
+        }
+        
+        if ($securityIssues.Count -gt 0) {
+          Write-Host "⚠️ Security issues found:"
+          foreach ($issue in $securityIssues) {
+            Write-Host "  - $issue"
+          }
+        } else {
+          Write-Host "✅ No obvious security issues found"
+        }
+      shell: pwsh
