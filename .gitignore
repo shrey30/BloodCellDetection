@@ -382,7 +382,7 @@ dmypy.json
 .pyre/
 
 # Custom ignores
-*.keras
+# *.keras  # Allow keras files for ML models
 *.h5
 *.jpg
 *.png
