@@ -20,7 +20,7 @@ namespace BloodCellDetection
             if (FileUpload1.HasFile)
             {
                 string extension = Path.GetExtension(FileUpload1.FileName).ToLower();
-                string[] allowedExtensions = { ".jpg", ".jpeg", ".png", ".gif", ".bmp" };
+                string[] allowedExtensions = { ".jpg", ".jpeg", ".png" };
 
                 if (allowedExtensions.Contains(extension))
                 {
@@ -48,7 +48,7 @@ namespace BloodCellDetection
                 else
                 {
                     lblMessage.ForeColor = System.Drawing.Color.Red;
-                    lblMessage.Text = "Only image files (.jpg, .png, .gif, .bmp) are allowed.";
+                    lblMessage.Text = "Only image files (.jpg, .png) are allowed.";
                 }
             }
             else

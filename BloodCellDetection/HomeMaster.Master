@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeMaster.master.cs" Inherits="BloodCellDetection.HomeMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Blood Cell Detection System</title>
+    <link rel="stylesheet" href="styles.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="navbar">
+        <h2>Blood Cell Detection System</h2>
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        <div>
+            <a href="UHome.aspx">Home</a>
+            <a href="Report.aspx">Results</a>
+            <a href="History.aspx">History</a>
+            <a href="Contact.aspx">Contact</a>
+            <a href="Login.aspx">Logout</a>
+
+            <%--<a href="result.html">Results</a>
+    <a href="history.html">History</a>
+    <a href="contact.html">Contact</a>--%>
+        </div>
+    </div>
+
+    <%--<div class="hero">
+  
+</div>--%>
+
+    <div class="cards">
+        <form id="form1" runat="server">
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    </div>
+
+    <footer>© 2025 Blood Cell Detection System | All Rights Reserved</footer>
+
+</body>
+</html>

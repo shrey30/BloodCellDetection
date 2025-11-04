@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BloodReport ReportID="0a9de5f4-af78-412c-b110-61f72f47d1eb" UserName="Ram Kumar" DateTime="2025-11-03 18:32:59">
+  <Tests>
+    <Test>
+      <TestName>RBC</TestName>
+      <Result>5.99 million/µL</Result>
+      <NormalRange>4.5 - 5.9 million/µL</NormalRange>
+    </Test>
+    <Test>
+      <TestName>WBC</TestName>
+      <Result>5,516 /µL</Result>
+      <NormalRange>4,000 - 11,000 /µL</NormalRange>
+    </Test>
+    <Test>
+      <TestName>Platelet</TestName>
+      <Result>3,56,193 /µL</Result>
+      <NormalRange>150,000 - 450,000 /µL</NormalRange>
+    </Test>
+    <Test>
+      <TestName>Hemoglobin</TestName>
+      <Result>16.5 g/dL</Result>
+      <NormalRange>13.5 - 17.5 g/dL</NormalRange>
+    </Test>
+  </Tests>
+  <Diagnosis>Abnormal Blood Count detected: High RBC.</Diagnosis>
+</BloodReport>

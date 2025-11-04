@@ -45,6 +45,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Sysmgr">
+      <HintPath>..\..\..\Sysmgr\Sysmgr\bin\Debug\Sysmgr.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -103,6 +106,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
+    <Content Include="App_Data\Users.xml" />
+    <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -122,8 +127,11 @@
     <Content Include="Content\Site.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\style.css" />
+    <Content Include="Dashboard.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="GenerateReport.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="History.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="img\about.jpg" />
     <Content Include="img\blog-1.jpg" />
@@ -141,6 +149,7 @@
     <Content Include="img\testimonial-2.jpg" />
     <Content Include="img\testimonial-3.jpg" />
     <Content Include="img\user.jpg" />
+    <Content Include="index.html" />
     <Content Include="js\main.js" />
     <Content Include="lib\easing\easing.js" />
     <Content Include="lib\easing\easing.min.js" />
@@ -162,6 +171,13 @@
     <Content Include="lib\tempusdominus\js\tempusdominus-bootstrap-4.min.js" />
     <Content Include="lib\waypoints\links.php" />
     <Content Include="lib\waypoints\waypoints.min.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="NewUser.aspx" />
+    <Content Include="Python\final.jpg" />
+    <Content Include="Python\out.png" />
+    <Content Include="Python\step.jpg" />
+    <Content Include="Report.aspx" />
+    <Content Include="script.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -192,6 +208,8 @@
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="lib\owlcarousel\LICENSE" />
     <Content Include="HMaster.Master" />
+    <Content Include="LoginMaster.Master" />
+    <Content Include="HomeMaster.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -219,7 +237,9 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="styles.css" />
     <Content Include="test.aspx" />
+    <Content Include="UHome.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -309,8 +329,37 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="BloodTest.cs" />
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GenerateReport.aspx.cs">
+      <DependentUpon>GenerateReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GenerateReport.aspx.designer.cs">
+      <DependentUpon>GenerateReport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="History.aspx.designer.cs">
+      <DependentUpon>History.aspx</DependentUpon>
     </Compile>
     <Compile Include="HMaster.Master.cs">
       <DependentUpon>HMaster.Master</DependentUpon>
@@ -326,13 +375,55 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="HomeMaster.Master.cs">
+      <DependentUpon>HomeMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeMaster.Master.designer.cs">
+      <DependentUpon>HomeMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginMaster.Master.cs">
+      <DependentUpon>LoginMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginMaster.Master.designer.cs">
+      <DependentUpon>LoginMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="NewUser.aspx.cs">
+      <DependentUpon>NewUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewUser.aspx.designer.cs">
+      <DependentUpon>NewUser.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report.aspx.designer.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
     <Compile Include="test.aspx.cs">
       <DependentUpon>test.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="test.aspx.designer.cs">
       <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UHome.aspx.cs">
+      <DependentUpon>UHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UHome.aspx.designer.cs">
+      <DependentUpon>UHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
@@ -342,10 +433,7 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Python\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />

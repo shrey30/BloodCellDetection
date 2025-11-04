@@ -1,0 +1,424 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\BloodCellDetection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|d:\\project\\bloodcelldetection\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\app_data\\users.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:app_data\\users.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\generatereport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:generatereport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\homemaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:homemaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\history.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:history.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\history.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:history.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\uhome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:uhome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\bloodtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:bloodtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\generatereport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:generatereport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\newuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:newuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\test.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:test.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\homemaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:homemaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\loginmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:loginmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\newuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:newuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\hmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:hmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|D:\\Project\\BloodCellDetection\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D369E9EF-D082-4D11-8A93-FF171B4E8B16}|BloodCellDetection.csproj|solutionrelative:about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Report.aspx.cs",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\Report.aspx.cs",
+              "RelativeDocumentMoniker": "Report.aspx.cs",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\Report.aspx.cs",
+              "RelativeToolTip": "Report.aspx.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAowEQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T12:30:19.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenerateReport.aspx.cs",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\GenerateReport.aspx.cs",
+              "RelativeDocumentMoniker": "GenerateReport.aspx.cs",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\GenerateReport.aspx.cs",
+              "RelativeToolTip": "GenerateReport.aspx.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAowHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T12:14:39.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Report.aspx",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\Report.aspx",
+              "RelativeDocumentMoniker": "Report.aspx",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\Report.aspx",
+              "RelativeToolTip": "Report.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-03T12:10:28.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UHome.aspx",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\UHome.aspx",
+              "RelativeDocumentMoniker": "UHome.aspx",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\UHome.aspx",
+              "RelativeToolTip": "UHome.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-17T09:45:28.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeMaster.Master",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\HomeMaster.Master",
+              "RelativeDocumentMoniker": "HomeMaster.Master",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\HomeMaster.Master",
+              "RelativeToolTip": "HomeMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-17T07:25:42.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.aspx",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\Dashboard.aspx",
+              "RelativeDocumentMoniker": "Dashboard.aspx",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\Dashboard.aspx*",
+              "RelativeToolTip": "Dashboard.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-17T07:26:50.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Login.aspx.cs",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\Login.aspx.cs",
+              "RelativeToolTip": "Login.aspx.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwCMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T07:18:07.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Users.xml",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\App_Data\\Users.xml",
+              "RelativeDocumentMoniker": "App_Data\\Users.xml",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\App_Data\\Users.xml",
+              "RelativeToolTip": "App_Data\\Users.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-09-17T07:17:33.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "History.aspx.cs",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\History.aspx.cs",
+              "RelativeDocumentMoniker": "History.aspx.cs",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\History.aspx.cs",
+              "RelativeToolTip": "History.aspx.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAywE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T12:44:04.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Contact.aspx",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\Contact.aspx",
+              "RelativeDocumentMoniker": "Contact.aspx",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\Contact.aspx",
+              "RelativeToolTip": "Contact.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-03T12:48:17.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\Login.aspx",
+              "RelativeDocumentMoniker": "Login.aspx",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\Login.aspx",
+              "RelativeToolTip": "Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-17T07:14:59.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "History.aspx",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\History.aspx",
+              "RelativeDocumentMoniker": "History.aspx",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\History.aspx",
+              "RelativeToolTip": "History.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-03T12:41:20.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BloodTest.cs",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\BloodTest.cs",
+              "RelativeDocumentMoniker": "BloodTest.cs",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\BloodTest.cs",
+              "RelativeToolTip": "BloodTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T12:13:14.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GenerateReport.aspx",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\GenerateReport.aspx",
+              "RelativeDocumentMoniker": "GenerateReport.aspx",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\GenerateReport.aspx",
+              "RelativeToolTip": "GenerateReport.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-03T12:14:12.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Dashboard.aspx.cs",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\Dashboard.aspx.cs",
+              "RelativeDocumentMoniker": "Dashboard.aspx.cs",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\Dashboard.aspx.cs",
+              "RelativeToolTip": "Dashboard.aspx.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAcwDwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T07:28:27.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NewUser.aspx.cs",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\NewUser.aspx.cs",
+              "RelativeDocumentMoniker": "NewUser.aspx.cs",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\NewUser.aspx.cs",
+              "RelativeToolTip": "NewUser.aspx.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAiwEsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T07:23:02.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-09-17T07:11:45.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "test.aspx",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\test.aspx",
+              "RelativeDocumentMoniker": "test.aspx",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\test.aspx",
+              "RelativeToolTip": "test.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-24T08:52:48.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Home.aspx.cs",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\Home.aspx.cs",
+              "RelativeDocumentMoniker": "Home.aspx.cs",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\Home.aspx.cs",
+              "RelativeToolTip": "Home.aspx.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswDgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:36:41.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeMaster.Master.cs",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\HomeMaster.Master.cs",
+              "RelativeDocumentMoniker": "HomeMaster.Master.cs",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\HomeMaster.Master.cs",
+              "RelativeToolTip": "HomeMaster.Master.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:00:41.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NewUser.aspx",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\NewUser.aspx",
+              "RelativeDocumentMoniker": "NewUser.aspx",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\NewUser.aspx",
+              "RelativeToolTip": "NewUser.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-17T07:21:59.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginMaster.Master",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\LoginMaster.Master",
+              "RelativeDocumentMoniker": "LoginMaster.Master",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\LoginMaster.Master",
+              "RelativeToolTip": "LoginMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-17T07:12:55.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\Home.aspx",
+              "RelativeDocumentMoniker": "Home.aspx",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\Home.aspx",
+              "RelativeToolTip": "Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-24T11:32:34.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "about.html",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\about.html",
+              "RelativeDocumentMoniker": "about.html",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\about.html",
+              "RelativeToolTip": "about.html",
+              "ViewState": "AgIAAEEBAAAAAAAAAAAAAEsBAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-24T08:51:30.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HMaster.Master",
+              "DocumentMoniker": "D:\\Project\\BloodCellDetection\\HMaster.Master",
+              "RelativeDocumentMoniker": "HMaster.Master",
+              "ToolTip": "D:\\Project\\BloodCellDetection\\HMaster.Master",
+              "RelativeToolTip": "HMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-24T08:49:53.267Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

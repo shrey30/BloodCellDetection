@@ -1,0 +1,20 @@
+<Users>
+  <User>
+    <user_id>1</user_id>
+    <name>Ram Kumar</name>
+    <phone_no>9898765432</phone_no>
+    <password>12345</password>
+  </User>
+  <User>
+    <user_id>2</user_id>
+    <name>Vijay Deenanath</name>
+    <phone_no>9876542311</phone_no>
+    <password>12345</password>
+  </User>
+  <User>
+    <user_id>7</user_id>
+    <name>Suraj</name>
+    <phone_no>123456</phone_no>
+    <password>123</password>
+  </User>
+</Users>

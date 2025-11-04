@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BloodReport ReportID="e5f16ea9-5c72-4c6d-9b16-79407a006d54" UserName="Ram Kumar" DateTime="2025-11-04 17:16:59">
+  <Tests>
+    <Test>
+      <TestName>RBC</TestName>
+      <Result>5.32 million/µL</Result>
+      <NormalRange>4.5 - 5.9 million/µL</NormalRange>
+    </Test>
+    <Test>
+      <TestName>WBC</TestName>
+      <Result>10,780 /µL</Result>
+      <NormalRange>4,000 - 11,000 /µL</NormalRange>
+    </Test>
+    <Test>
+      <TestName>Platelet</TestName>
+      <Result>2,73,536 /µL</Result>
+      <NormalRange>150,000 - 450,000 /µL</NormalRange>
+    </Test>
+    <Test>
+      <TestName>Hemoglobin</TestName>
+      <Result>13.7 g/dL</Result>
+      <NormalRange>13.5 - 17.5 g/dL</NormalRange>
+    </Test>
+  </Tests>
+  <Diagnosis>Normal Blood cell Count. No abnormalities detected.</Diagnosis>
+</BloodReport>
